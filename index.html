@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <h1>This is my Book list</h1>
+  <div class="first-input">
+    <label for="item">Please add your favorite book:</label>
+
+    <input type="text" name="item" id="item" placeholder="Please add your book">
+
+    <button onclick="addBook()">Click to add</button>
+  </div>
+
+  <!-- first input and button ends here -->
+  <div class="second-input">
+    <label for="item">Please add MUST reads here:</label>
+
+    <input type="text" name="item" id="mustRead" placeholder=" MUST read books here.">
+
+    <button onclick="mustReadBook()">Click to add</button>
+  </div>
+  <!-- second input and button ends here -->
+  <div class="bottom-button-wrap">
+    <button class="btn" onclick="disList()">Click Here to display Your Book List</button>
+  </div>
+
+  <div class="actual-list">
+
+    <h3>My List:</h3>
+
+    <div class="disp">
+
+    </div>
+  </div>
+
+
+
+
+
+  <script src="/app.js"></script>
+</body>
+
+</html>
